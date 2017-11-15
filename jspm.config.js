@@ -45,11 +45,11 @@ SystemJS.config({
   ],
   map: {
     "assert": "npm:jspm-nodelibs-assert@0.2.1",
-    "espa": "github:phongnlu/espa@0.0.3",
+    "espa": "github:phongnlu/espa@0.0.7",
     "process": "npm:jspm-nodelibs-process@0.2.1"
   },
   packages: {
-    "github:phongnlu/espa@0.0.3": {
+    "github:phongnlu/espa@0.0.7": {
       "map": {
         "promise-polyfill": "npm:promise-polyfill@6.0.2",
         "riot-observable": "npm:riot-observable@3.0.0",
