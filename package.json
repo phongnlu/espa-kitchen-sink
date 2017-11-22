@@ -4,6 +4,7 @@
     "live-server": "^1.2.0"
   },
   "scripts": {
+    "postinstall": "jspm i",
     "build": "jspm build main.js dist/main.js && jspm build main.js dist/main.min.js --minify",
     "dev": "live-server --port=8888",
     "build-app1": "jspm build src/build/app1/main.js dist/main.app1.js && jspm build src/build/app1/main.js dist/main.app1.min.js --minify",

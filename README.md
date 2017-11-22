@@ -11,7 +11,6 @@ Demo different aspect from [ESPA](https://github.com/phongnlu/espa) and what fea
 
 ```cmd
 > npm i
-> jspm i
 ```
 
 ## Usage
